@@ -34,6 +34,34 @@
 // CONVERT INTO STRING =>
 
 // let someNumber=33; =>convrt into string 
-let stringNumber= String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let stringNumber= String(someNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// video 7
+
+//************************operations******************************** */
+
+// let value =3
+// let negValue=-value
+// console.log(negValue);=>-3
+
+// console.log(2+2,2-2,2*2,2**3);=> 4 0 4 8
+
+
+// string concainate
+// let str1="arjun"
+// let str2=" negi"
+// let str3= str1+str2;
+// console.log(str3);=>arjun negi
+
+
+// console.log(1+2+"2");=>32
+// console.log("1"+2+3);=>123
+
+// in coading readbality is more important because many people read this code may time 
+
+// operator 
+//  prefix=> a++ value increment after
+//   postfix => ++a value increment before
