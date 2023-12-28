@@ -25,4 +25,19 @@ compresion when our data type are not same
 
 //strict check ===
 console.log("2"==2) because of conversion
-console.log("2"===2) because check data types 
+console.log("2"===2) because check data types
+
+***************************************day 2***********************************
+1. memory allocation in javascript
+    Stack_memory:
+        -store primitive data types.
+        -recevied copy value of declare variable.
+
+    Heap_memory:
+        -store non-primitive data types.
+        -reference of original values.
+
+2. string ans its methods like uppercase,lowercase, find length of string and etc.
+3. Number and Maths in Javascript:
+
+
