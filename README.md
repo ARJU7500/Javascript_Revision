@@ -41,3 +41,15 @@ console.log("2"===2) because check data types
 3. Number and Maths in Javascript:
 
 
+date and time 
+
+use some function 
+
+
+******************basicjs02*******************
+
+when we perform copy operation in array so create shallow copies.
+
+shallow copies: refrence point 
+deep copy : do not create same refrence (value)
+
