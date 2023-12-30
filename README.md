@@ -53,3 +53,9 @@ when we perform copy operation in array so create shallow copies.
 shallow copies: refrence point 
 deep copy : do not create same refrence (value)
 
+array and some functions/methods 
+
+basicjs02/b.js=>
+array part 2
+
+
