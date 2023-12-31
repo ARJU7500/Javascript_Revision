@@ -59,3 +59,121 @@ basicjs02/b.js=>
 array part 2
 
 
+
+objects/2.js=>
+
+1. destructure value
+const {propertyName of object}= objectName;
+        or
+const {propertyName of object: give a value you want to call it}= objectName;
+
+in react js whenever we pass the props in {} so it means follow destructure 
+
+API:application program interface
+we can say "apna kam dusre k sir thopna"
+
+############################basicjs03###################
+*****************function********************
+1.js=>
+
+function: it is like a package then we use this package called any time
+
+function decleartion: 
+function functionName()
+{
+    //code
+}
+
+**note**
+funcionName: reference
+() used for function execution
+parameters: when we create defination in function where we take input inside(a,b) called parameter.
+Arguments: when we call a function that time we pass the value inside (a,b) is called arguments.
+
+
+part 2 of functions =>
+
+whenever we don't know how many argumet passed by user in function so we use rest operator(...) which is convert argument into array format  
+ex:mostly used in shopping app where we don't know how many item  user add in cart 
+
+how to pass rest operator in function 
+function functionName(...variable)
+{
+    return variable
+}
+functionName(arg1,arg2,............,n)
+
+rest operator: ...
+spread operator: ...
+both are same so its depends on its work then we calld rest or spread operator
+
+object pass in function or use 
+
+const objectName = {
+    name: "Javascript",
+    email:"js@google.com",
+    phone:7668213002,
+    address:"node.js"
+}
+function hanleObject(anyObjct)
+{
+    console.log(`user anme is ${anyObjct.name} from ${anyObjct.address}`);
+}
+hanleObject(objectName);
+
+<!-- array pass in function or use -->
+const varName= [100,500,600,456,789,34656]
+function functionName(getArr)
+{
+    return getArr;
+}
+console.log(functionName(varName));
+        or
+console.log(functionName([100,"ram",500,600,456,789,34656]));
+
+
+*************************scope********************************
+2.js=>
+
+scope : start with { and endthe scope }
+story start with let, const, var in javaScript.
+
+global: use inside and outside both 
+local: only use inside {}
+
+<!-- nested scope -->
+
+scope inside scope like function inside function 
+{
+    {
+
+    }
+}
+
+<!-- THIS and arrow function in javascript -->
+basicjs03/arrow/1.js:-
+this: refer current context.
+in browser global object is window
+but in node our this globaly is empty utill give a value but inside function if we print this so we get multiple property because inside the tis keword somthing or you cal access.
+
+arrow function 
+
+const functionName = ()=>{
+    //code
+}
+
+impliset return 
+const add= (num1, num2)=> (num1+num2)
+
+expliset return 
+const add= (num1, num2)=>{
+    return num1+num2;
+}
+
+object return in arrow function:
+object return 
+
+const add=()=> ({userName:"java"})
+console.log(add())
+
+
