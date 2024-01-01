@@ -176,4 +176,212 @@ object return
 const add=()=> ({userName:"java"})
 console.log(add())
 
+<!-- IIFE -->
+
+Immediately Invoked Function Expressions
+is used for Immediately ececute the function 
+like when we connect with databases so we need or file start so or database connetion start Immediately.
+        or
+2nd is global variable polution
+
+syntax:
+
+(function defination)();
+
+        OR 
+FAT ARROW FUNCTION 
+( ()=>{
+    console.log(`welcome to 2024`);
+})();
+
+1. named IIFE :
+
+( function wiss(){
+    console.log(`welcome to 2024`);
+})();
+
+2.simple IIFE/unnamed IIFE:
+
+( ()=>{
+    console.log(`welcome to 2024 agian`);
+ })();
+
+
+<!-- javascript execute code + call stack -->
+
+javascript execute code:
+whenever a script tag is loaded into browser it will be executed by JS engine.
+javascript execute code in 3 phase
+1. javascript execution contex: how to excute the file which created by you.
+browser javascript execution contex value of this is window and 
+node javascript execution contex value of his is empty object.
+
+2. function/functional execution contex: 
+how to execute your own code.
+
+3. eval execution contex: it is property of global object
+
+
+in javascript our code run on two phases:
+1. memory creation execution/creation execution : for memory allocation for variable which declare by user in javaScript.
+2. Execution phase: perform operation (arthmetic and etc.)
+
+how to execute code in javaScript:
+
+1. global execution/environment and allocated in this keyword
+
+2. memory creation phase: all variable store which is avalible in our source code.
+here each varible have undefined and function have defination of function.
+
+3. execution phase:
+    give orginal value to variable and whenever we use the function in our code  so, ready new executionl context where we have 
+    1. new variable environmnt 
+    2. excution thread
+    now repeat two phase memory creation phase and execution phase 
+
+    now our work os done so our new executionl context is deleted.
+    
+    CALL SATCK: 
+
+**************controlFlow04=>*****************
+    Control flow in javascript:
+
+    1. if statement:
+    if(condition)
+    {
+        //code
+    }
+    comprasion operator in js:
+    <,>,==,!=,<=,>=,===
+
+    2. if else statement:
+    if(condition)
+    {
+        //code
+    }
+    else
+    {
+        //code
+    }
+
+    3. nested statement: 
+    if(condition)
+    {
+        //code
+    }
+    else if(condition)
+    {
+        //code
+    }
+    else if(condition)
+    {
+        //code
+    }
+    else
+    {
+        //code
+    }
+
+4. use && (and) operator
+
+    if(condition && condition)
+    {
+        //code
+    }
+
+5. use || (or) operator:
+    if(condition || condition)
+    {
+        //code
+    }
+
+6. use switch:
+    switch(key
+{
+case 1:
+//print mgs
+break;
+case 2:
+//print mgs
+break;
+.
+.
+.
+case n:
+//print mgs
+break;
+default:
+//print mgs
+break;
+}
+
+falsy values 
+//     false, 0,-0,BigInt on, "", null, undefined, NaN
+truthly value: true, 1, 0>,"0", 'false', " ",{},[],function(){} 
+
+nullish coalescing operator(??):it use for handel error
+all story depend on null or undefined.
+let val1= 5??10;
+
+For loop(itreation) with break and continue in javascript:
+A. for loop:
+	for( var inslization ; condition ; increment/decrement)
+	{
+		//code
+	}
+	B. while loop:
+	while(condition)
+	{
+		//code;
+		increment/decrement;
+	}
+	C. do while loop:
+	do 
+	{
+ 
+    	// body of do-while loop    
+    
+	} 
+	while (condition);
+
+    ********Array specific loop************
+    A. for of loop:
+		a. array: for (const iterator of object) {}
+		b. string: for (const iterator of object) {}
+
+	B. map: it is an object which is hold key value pairs and print order way and not use duplicate value in map.
+
+    C. for of loop: it is used for get index/key of an array.
+
+    <!-- for each loop  -->
+    --it is high orderd function
+
+    const coading = ["c","c++","java","js","devops"]
+coading.forEach( (item)=>{
+    console.log(`I can code in ${item}`)
+})
+in foreach we have h problem 
+this loop not return any value. 
+
+6.js=>
+
+<!-- Filter map and reduce in javascript -->
+
+A. filter: 
+		const varName = arrayName.filter( (num)=> conditions)
+
+7.js=>
+
+B. map: 
+		const newNum = myNum.map( (num)=> conditin)
+
+    C. chaining: They allow them to perform multiple functions simultaneously.
+		const arraynum = myNum.map((num)=> num*10)
+.map((num)=> num+1)
+.filter((num)=> num>30)
+
+8.js=>
+
+redue:  	D.redue: 
+	const list = shoppingCart.reduce((acc, item)=>acc+ item.price, 0)
 

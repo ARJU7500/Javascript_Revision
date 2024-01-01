@@ -40,4 +40,22 @@ const js = ()=>{
 // object return 
 
 const add=()=> ({userName:"java"})
-console.log(add())
+// console.log(add())
+
+// IIFE : Immediately Invoked Function Expressions
+
+// 1. named IIFE 
+( function wiss(){
+    console.log(`welcome to 2024`);
+})();
+//2.simple IIFE 
+// ( ()=>{
+//     console.log(`welcome to 2024 agian`);
+// })();
+
+// // pass value in iife 
+// ( (name)=>{
+//     console.log(`happy ${name}`);
+// })('new yeaar');
+
+
