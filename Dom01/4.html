@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document04</title>
+</head>
+<body>
+    <div class="list">
+        <ul class="language">
+            <li>c</li>
+            <li>c++</li>
+            <li>java</li>
+            <li>javaScript</li>
+            <li>node.js</li>
+        </ul>
+    </div>
+</body>
+<script>
+
+//add element
+    const lanName = (name)=>
+    {
+        const li = document.createElement('li');
+        li.innerHTML = `${name}`;
+        document.querySelector('.language').appendChild(li);
+    }
+    lanName("python");
+    lanName("script");
+
+    aplilang = (langName)=>
+    {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName));
+        document.querySelector('.language').appendChild(li);
+    }
+    aplilang("go language")
+
+    // edit element 
+    const lang = document.querySelector("li:nth-child(2)");
+    const crEle = document.createElement('li');
+    crEle.textContent = "mojo";
+    lang.replaceWith(crEle);
+    // 2
+    const lang1 = document.querySelector("li:first-child");
+    lang1.outerHTML = "<li>c & c++ </li>"
+
+
+    // remove li 
+    const lastChild = document.querySelector("li:last-child")
+    lastChild.remove()
+    </script>
+</html>

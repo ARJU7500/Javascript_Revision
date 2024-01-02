@@ -385,3 +385,16 @@ B. map:
 redue:  	D.redue: 
 	const list = shoppingCart.reduce((acc, item)=>acc+ item.price, 0)
 
+    ######dom01
+    3. query selector: 
+	A. querySelector: show individual data in web page which you select.
+	B. querySelectorAll: show All data in web page which you select.
+	C. getElementByClassName.
+
+3. How to create a new element in DOM:
+	A. access parent node or children node help of js.
+4. create element help of js.
+	A. create element
+	B. edit element
+	C. remove Element
+
