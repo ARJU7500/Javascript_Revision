@@ -1,4 +1,4 @@
-# Javascript_Revision with "chai or code" hitesh sir
+# Javascript_Revision
 revision part of javascript basic to advance
 day 1st:
 diffrent b/w .text file and .js file.
