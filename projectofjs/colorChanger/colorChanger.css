@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    padding:10px;
+    text-align:center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    margin-left:60px;
+}
+#grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
+  #pink {
+    background: pink;
+  }
+  
+  #orange {
+    background: orange;
+  }
+  #green {
+    background: green;
+  }
+  #red {
+    background: red;
+  }
+  #black {
+    background: black;
+  }
+  .continer
+  {
+    width: 94%;
+    height: 600px;
+    border: solid black 2px;
+    margin-left:55px;
+  }
+  
