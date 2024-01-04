@@ -58,7 +58,18 @@
     background-color:green;
     color:white;
 }
+.result
+{
+    height:150px;
+    border:1px solid green;
+}
 .weightGuide
 {
-    margin-top:30px;
+    margin-top:20px;
+    height:150px;
+    overflow:none;
+}
+.weightGuide p
+{
+    line-height: 0.2;
 }
