@@ -1,4 +1,4 @@
-let randomNum = parseInt(Math.random()*100+1)
+let randomNum = parseInt(Math.random()*100+1) 
 const sumbit = document.querySelector('#subt')
 const userInput = document.querySelector('#intxt')
 const PreGess = document.querySelector('.pgess')
@@ -11,8 +11,7 @@ let prevGuess = []
 let numOfGess = 1
 let playGame = true
 
-if(playGame)
-    {
+if(playGame){
         sumbit.addEventListener('click', function(e){
             e.preventDefault()
             const guess = parseInt(userInput.value)
@@ -21,8 +20,7 @@ if(playGame)
         })
     }
 
-function validateGuess(guess)
-{
+function validateGuess(guess){
     if(isNaN(guess))
     {
         alert('please enter valid number')
@@ -52,8 +50,7 @@ function validateGuess(guess)
     }
 }
 
-function checkGess(guess)
-{
+function checkGess(guess){
     if(guess==randomNum)
     {
         displayMgs(`right guess`)
@@ -69,20 +66,17 @@ function checkGess(guess)
     }
 }
 
-function displayGuess()
-{
+function displayGuess(guess){
     userInput.value = ''
     PreGess.innerHTML += `${guess}, `
     numOfGess++
     result.innerHTML = `${11-numOfGess}`
 }
 
-function displayMgs(mgs)
-{
+function displayMgs(mgs){
     lowHighValue.innerHTML = `<p>${mgs}</p>`
 }
-function endGame()
-{
+function endGame(){
     userInput.value = '';
     userInput.setAttribute('disabled', '')
     p.classList.add('button')
@@ -91,8 +85,7 @@ function endGame()
     playGame = false
     newGame()
 }
-function newGame()
-{
+function newGame(){
     const newgamebtn = document.querySelector('#newGame')
     newgamebtn.addEventListener('click', function(e){
         randomNum = parseInt(Math.random()*100+1)
