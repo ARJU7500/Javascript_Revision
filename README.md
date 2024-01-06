@@ -406,7 +406,19 @@ redue:  	D.redue:
 #### project2
 #### project3
 #### project4
-1. 
 
-
+****events in javaScript***
+in javascript all evens run in sequentially 
+1. Events in Javascript
+2. Async Javascript fundamentals
+    A.default behaviour of javaScript:
+        a. in javaScript is senchronous.
+        b. it is singl threaded language it means all program in single thread.
+    B. execution context:
+        -execute one line of code at a time.
+        -each operation waits for te last one to complete before execution.
+    C. Blocking code vs Non Blocking code:
+        A. Blocking code: block the flow of program.
+        B. non-blocking code:not block the flow of program.
+    
 
