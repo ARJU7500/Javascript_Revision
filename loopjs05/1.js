@@ -1,9 +1,9 @@
 // For loop(itreation) with break and continue in javascript
 // for 
-// for(let i=0;i<10;i++)
-// {
-//     console.log(i);
-// }
+for(let i=0;i<10;i++)
+{
+    console.log(i);
+}
 //  use break keyword
 // for(let i=0;i<10;i++)
 // {
