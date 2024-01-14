@@ -1,7 +1,7 @@
 //array
 
 const myArry = [0,1,2,3,4,5,6];
-// console.log(myArry);
+console.log(myArry);
 
 const myhero = ["vikrm btra", "subhas chandr bosh"]
 // console.log(myhero);
